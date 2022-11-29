@@ -1,7 +1,7 @@
 # EanPictures
 Ean Pictures e Data Load
 
-Como utiliza
+Como utilizar
 
 [Api eanpictures.com.br]
 
@@ -86,4 +86,12 @@ Se NÃO ENCONTRAR, devolve json contendo:
 {"Status":"404","Status_Desc":"Descricao nao encontrada para o ean: 789326091"}
 
 *******************************************************************************
-	
+
+Chamada: /api/fotoexiste/:id
+exemplo: http://www.eanpictures.com.br:9000/api/fotoexiste/78932609
+* note que 78932609 é o código EAN / código de barras do produto
+
+Se *ENCONTRAR*  a a foto na nossa base de dados, devolve texto: Sim
+
+Se NÃO ENCONTRAR, devolve texto: Nao
+
