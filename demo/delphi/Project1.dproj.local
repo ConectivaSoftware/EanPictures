@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/24 10:31:56.357.dfm,C:\Users\ServerM2\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\ServerM2\Desktop\_CONSUMIR API EANPICTURES\Unit1.dfm</Transaction>
+    <Transaction>2021/02/24 10:31:56.357.pas,C:\Users\ServerM2\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\ServerM2\Desktop\_CONSUMIR API EANPICTURES\Unit1.pas</Transaction>
+    <Transaction>2021/02/24 10:31:58.160.dproj,C:\Users\ServerM2\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\ServerM2\Desktop\_CONSUMIR API EANPICTURES\Project1.dproj</Transaction>
+    <Transaction>2021/03/02 14:16:15.000.939,=C:\Projetos\APi consulta imagens e dados de produtos\dataloadcnpj.pas</Transaction>
+    <Transaction>2021/03/02 14:16:15.000.987,=C:\Projetos\APi consulta imagens e dados de produtos\Pkg.Json.DTO.pas</Transaction>
+    <Transaction>2021/03/02 14:16:15.000.963,=C:\Projetos\APi consulta imagens e dados de produtos\dataloadproduct.pas</Transaction>
+    <Transaction>2021/03/02 15:23:40.000.297,C:\Projetos\APi consulta imagens e dados de produtos\dataloadcnpj.pas=</Transaction>
+    <Transaction>2021/03/02 15:23:44.000.264,C:\Projetos\APi consulta imagens e dados de produtos\dataloadproduct.pas=</Transaction>
+    <Transaction>2021/03/02 15:23:47.000.626,C:\Projetos\APi consulta imagens e dados de produtos\Pkg.Json.DTO.pas=</Transaction>
+    <Transaction>2021/03/02 15:24:08.000.952,=C:\Projetos\APi consulta imagens e dados de produtos\_CONSUMIR API EANPICTURES\_CONSUMIR API EANPICTURES\Pkg.Json.DTO.pas</Transaction>
+    <Transaction>2021/03/02 15:24:08.000.834,=C:\Projetos\APi consulta imagens e dados de produtos\_CONSUMIR API EANPICTURES\_CONSUMIR API EANPICTURES\dataloadcnpj.pas</Transaction>
+    <Transaction>2021/03/02 15:24:08.000.890,=C:\Projetos\APi consulta imagens e dados de produtos\_CONSUMIR API EANPICTURES\_CONSUMIR API EANPICTURES\dataloadproduct.pas</Transaction>
+  </Transactions>
+</BorlandProject>
