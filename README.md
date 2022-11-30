@@ -95,3 +95,14 @@ Se *ENCONTRAR*  a a foto na nossa base de dados, devolve texto: Sim
 
 Se NÃO ENCONTRAR, devolve texto: Nao
 
+*********************************************************************************
+Chamada: /api/fotoexistej/:id
+exemplo: http://www.eanpictures.com.br:9000/api/fotoexistej/78932609
+* note que 78932609 é o código EAN / código de barras do produto
+
+Se *ENCONTRAR*  a a foto na nossa base de dados, devolve json:
+{"Status":"200","Status_Desc":"Foto encontrada: 78932609"}
+
+Se NÃO ENCONTRAR, devolve json:
+{"Status":"404","Status_Desc":"Foto nao encontrada: 78932609545648"}
+em ambos os casos o status será 200 para evitar problemas em algumas linguagens
