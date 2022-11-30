@@ -93,7 +93,6 @@ type
       const pathgtindesc    : string = 'http://www.dataload.com.br:9000/api/desc/';
       const pathgtindesc2   : string = 'http://www.dataload.com.br:9000/api/descricao';
       const patheanexiste   : string = 'http://www.eanpictures.com.br:9000/api/fotoexiste/';
-
       // consulta CNPJ
       const pathcnpj        : string = 'http://www.dataload.com.br:8000/api/cnpj/';
       const pathcnpj2       : string = 'http://www.dataload.com.br:8000/api/cnpj2/';
@@ -305,9 +304,7 @@ begin
 
       try
       {$REGION 'return base'}
-
         Json:=GetJSON(UTF8ToString(Response.DataString));
-
         CNPJ.Text       := json.FindPath('cnpj').Value;
         Razao.Text      := json.FindPath('razao_social').Value;
         Fantasia.Text   := json.FindPath('nome_fantasia').Value;
@@ -317,9 +314,7 @@ begin
         estado.Text     := json.FindPath('uf').Value;
         CEP.Text        := json.FindPath('cep').Value;
         email.Text      := json.FindPath('correio_eletronico').Value;
-
         //add demais campos ao critério do usuário.
-
         logcnpj.Lines.Add(FormatDateTime('dd.mm.yyyy hh:mm:nn:zzz',now) + ' | '+'carregando dados');
       {$ENDREGION}
       except
@@ -422,7 +417,7 @@ begin
             begin
               case e.LastError of
                 Id_WSAETIMEDOUT: loggtin.Lines.Add(FormatDateTime('dd.mm.yyyy hh:mm:nn:zzz',now) + ' | '+'A conexão expirou');
-                Id_WSAEACCES:    loggtin.Lines.Add(FormatDateTime('dd.mm.yyyy hh:mm:nn:zzz',now) + ' | '+ 'não há acesso');
+                Id_WSAEACCES:    loggtin.Lines.Add(FormatDateTime('dd.mm.yyyy hh:mm:nn:zzz',now) + ' | '+'não há acesso');
               else
                                  loggtin.Lines.Add(FormatDateTime('dd.mm.yyyy hh:mm:nn:zzz',now) + ' | '+ e.message);
               end;
@@ -438,7 +433,6 @@ begin
       {$ENDREGION}
     end;
 end;
-
 
 function TfrmEanpictures.fotoexiste(value: string): Boolean;
 var
@@ -503,11 +497,6 @@ begin
  end
 
 end;
-
-
-
-
-
 
 end.
 
